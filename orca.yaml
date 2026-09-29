@@ -1,0 +1,3 @@
+scripts:
+  setup: 'echo %ORCA_WORKSPACE_NAME%'
+  archive: 'echo 정리 중: %ORCA_WORKSPACE_NAME%'
