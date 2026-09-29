@@ -1,3 +1,3 @@
 scripts:
-  setup: 'echo %ORCA_WORKSPACE_NAME%'
-  archive: 'echo 정리 중: %ORCA_WORKSPACE_NAME%'
+  setup: 'echo [setup] %ORCA_WORKSPACE_NAME% >> %ORCA_ROOT_PATH%\.git\orca-hooks.log'
+  archive: 'echo [archive] %ORCA_WORKSPACE_NAME% >> %ORCA_ROOT_PATH%\.git\orca-hooks.log'
